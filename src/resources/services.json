@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Peering",
+    "url": "peering"
+  },
+  {
+    "name": "Looking Glass",
+    "url": "https://heimdall.prevarinite.net"
+  },
+  {
+    "name": "Location Map",
+    "url": "map"
+  }
+]

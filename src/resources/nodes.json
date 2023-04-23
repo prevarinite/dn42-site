@@ -1,0 +1,30 @@
+{
+  "Europe": [
+    {
+      "name": "DE-NUR1",
+      "hostname": "nur1.de.dn42.prevarinite.net",
+      "location": "\uD83C\uDDE9\uD83C\uDDEA Nuremberg, Germany",
+      "provider": "Contabo",
+      "linkLocal": "fe80::7072:6576:6172:1",
+      "wireGuardPublicKey": "KCcJKb3+/1sjrP6B5gNBS1CpsC/ur3LHGs11feJc1lQ="
+    },
+    {
+      "name": "GB-LON1",
+      "hostname": "lon1.gb.dn42.prevarinite.net",
+      "location": "\uD83C\uDDEC\uD83C\uDDE7 London, UK",
+      "provider": "OVH",
+      "linkLocal": "fe80::7072:6576:6172:3",
+      "wireGuardPublicKey": "cCWo5uGm4Lggmrn47e5gaVF3zyGGZTwAD8wJ7XtM5zw="
+    }
+  ],
+  "Americas": [
+    {
+      "name": "US-LV1",
+      "hostname": "lv1.us.dn42.prevarinite.net",
+      "location": "\uD83C\uDDFA\uD83C\uDDF8 Las Vegas, NV, USA",
+      "provider": "BuyVM (Frantech)",
+      "linkLocal": "fe80::7072:6576:6172:2",
+      "wireGuardPublicKey": "ClHWFxMH9DsGzjIw/ZRBBtlWSzFfT9HmhZJEELrVUS0="
+    }
+  ]
+}

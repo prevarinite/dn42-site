@@ -1,0 +1,29 @@
+@import "../components/colors";
+
+.header {
+  width: 100%;
+  height: 55vh;
+  background-color: $gray;
+  display: flex;
+  flex-flow: column;
+
+  margin-top: 0;
+  text-align: center;
+
+  h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

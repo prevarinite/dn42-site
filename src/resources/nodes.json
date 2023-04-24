@@ -15,6 +15,13 @@
       "provider": "OVH",
       "linkLocal": "fe80::7072:6576:6172:3",
       "wireGuardPublicKey": "cCWo5uGm4Lggmrn47e5gaVF3zyGGZTwAD8wJ7XtM5zw="
+    },
+    {
+      "name": "PL-WAR1",
+      "hostname": "war1.pl.dn42.prevarinite.net",
+      "location": "\uD83C\uDDF5\uD83C\uDDF1 Warsaw, Poland",
+      "linkLocal": "fe80::7072:6576:6172:4",
+      "wireGuardPublicKey": "E+BUcPYtuIXMkFjghV38tIrUNeF1OeUTd8HACmgsRDc="
     }
   ],
   "Americas": [

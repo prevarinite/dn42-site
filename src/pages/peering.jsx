@@ -23,13 +23,17 @@ export default class peering extends Component {
                             <li>IRC: bombardygamer on #dn42 @ <a href="https://hackint.org">hackint</a></li>
                             <li>Email: <a href="mailto:callum.seabrook@prevarinite.com">callum.seabrook@prevarinite.com</a> (other methods preferred)</li>
                         </ul>
-                        <p>Only WireGuard over IPv6 link-local addresses with multiprotocol BGP and extended-next-hop (required
-                            for IPv4 to work properly) is supported. It is recommended to use WireGuard and BIRD for this
-                            setup, however any WireGuard-compatible and BGP-compatible software with multiprotocol and
-                            extended-next-hop support will work, providing that your setup is correct.</p>
-                        <p>If you have multiple nodes in multiple regions across continents, it is recommended to setup
+                        <p>
+                            The preferred setup for peering is using WireGuard over IPv6 link-local addresses with
+                            single, multiprotocol BGP sessions and extended next hop enabled. However, different setups can be
+                            supported on request, such as separate v4 and v6 sessions for non-multiprotocol BGP, or perhaps a
+                            different VPN protocol. Reach out and ask for it if you want to peer and have a different setup.
+                        </p>
+                        <p>
+                            If you have multiple nodes in multiple regions across continents, it is recommended to setup
                             multiple peerings for added redundancy across your network, and allow better routing (closer to
-                            the origin) across regions.</p>
+                            the origin) across regions.
+                        </p>
                     </div>
                     <br />
                     <br />

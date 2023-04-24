@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "./map.scss";
 import Locations from "../resources/locations.json";
+import {Helmet} from "react-helmet";
 
 export default class map extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>Network Map - Prevarinite on DN42</title>
+                </Helmet>
                 <div className="map-header">
                     <h1>Map of peering locations</h1>
                 </div>

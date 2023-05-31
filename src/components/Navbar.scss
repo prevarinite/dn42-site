@@ -1,0 +1,78 @@
+@import "colors";
+@import "breakpoints";
+@import "common";
+
+$navbar-height: 60px;
+
+.navbar {
+  height: $navbar-height;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  background-color: $black;
+  @include shadow($dark-gray);
+  flex-shrink: 0;
+
+  &:after {
+    position: absolute;
+    width: calc(100% - 4px);
+    top: $navbar-height;
+    left: 0;
+  }
+
+  > .navbar-link {
+    @media (max-width: $medium) {
+      font-size: 0;
+    }
+  }
+
+  img {
+    padding: 10px 0 10px 10px;
+  }
+  @media (max-width: $small) {
+    img:hover {
+      background-color: $dark_gray;
+    }
+  }
+
+  span {
+    display: flex;
+    margin-left: calc(100% / 6.4);
+    margin-right: auto;
+
+    .toggle-container {
+      &.on {
+        display: block;
+        position: absolute;
+        top: $navbar-height;
+        background-color: $black;
+        margin-left: 0;
+        padding: 5px 5px 5px 5px;
+        width: 200px;
+
+        a {
+          font-size: unset !important;
+        }
+      }
+
+      &.off {
+        display: none;
+      }
+    }
+
+    > i {
+      display: block;
+      font-size: 24px;
+      align-self: center;
+    }
+  }
+}
+
+.navbar-right {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding-right: calc(100% / 6.4);
+}

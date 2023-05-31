@@ -3,7 +3,8 @@ import "./peering.scss";
 import Nodes from "../resources/nodes.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo, faServer, faEarthEurope, faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
+import Navbar from "../components/Navbar";
 
 export default class peering extends Component {
     render() {
@@ -12,6 +13,7 @@ export default class peering extends Component {
                 <Helmet>
                     <title>Peering - Prevarinite on DN42</title>
                 </Helmet>
+                <Navbar />
                 <div className="peering-header">
                     <h1>Peering</h1>
                     <h3>AS4242422475</h3>

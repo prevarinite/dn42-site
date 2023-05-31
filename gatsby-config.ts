@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `DN42 Network - Prevarinite`,
-    siteUrl: `https://dn42.prevarinite.net`
+    title: `Prevarinite on DN42`,
+    siteUrl: `https://prevarinite.net`
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -18,8 +18,8 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://dn42.prevarinite.net",
-        sitemap: "https://dn42.prevarinite.net/sitemap.xml",
+        host: "https://prevarinite.net",
+        sitemap: "https://prevarinite.net/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }]
       }
     },

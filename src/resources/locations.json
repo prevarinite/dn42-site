@@ -1,34 +1,34 @@
 [
   {
-    "name": "GB-LON1",
+    "name": "GB-LON",
     "location": "London, UK",
     "provider": "OVH",
     "lat": "51.49672",
     "lon": "-0.116"
   },
   {
-    "name": "CA-BHS1",
+    "name": "CA-BHS",
     "location": "Beauharnois, Canada",
     "provider": "OVH",
     "lat": "45.31439",
     "lon": "-73.87948"
   },
   {
-    "name": "PL-WAR1",
+    "name": "PL-WAR",
     "location": "Warsaw, Poland",
     "provider": "OVH",
     "lat": "52.22627",
     "lon": "21.01346"
   },
   {
-    "name": "DE-NUR1",
+    "name": "DE-NUR",
     "location": "Nuremberg, Germany",
     "provider": "Contabo",
     "lat": "49.41564",
     "lon": "11.10525"
   },
   {
-    "name": "US-LV1",
+    "name": "US-LVG",
     "location": "Las Vegas, United States",
     "provider": "BuyVM (Frantech)",
     "lat": "36.13628",

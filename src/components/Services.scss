@@ -1,0 +1,11 @@
+@import "colors.scss";
+
+.services {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80% 80% 80%;
+  grid-template-rows: 100% 100% 100%;
+  grid-auto-columns: 60px;
+  grid-gap: 20px;
+  align-items: center;
+}

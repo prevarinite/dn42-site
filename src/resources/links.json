@@ -10,13 +10,8 @@
     "url": "/map"
   },
   {
-    "name": "Looking Glass",
-    "icon": "magnifying-glass",
-    "url": "https://heimdall.prevarinite.net"
-  },
-  {
-    "name": "Status",
-    "icon": "triangle-exclamation",
-    "url": "https://status.prevarinite.net"
+    "name": "Services",
+    "icon": "server",
+    "url": "/services"
   }
 ]

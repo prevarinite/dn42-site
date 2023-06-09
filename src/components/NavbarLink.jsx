@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import './NavbarLink.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShuffle, faMap, faMagnifyingGlass, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faShuffle, faMap, faServer } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-library.add(faShuffle, faMap, faMagnifyingGlass, faTriangleExclamation);
+library.add(faShuffle, faMap, faServer);
 
 export default class NavbarLink extends Component {
     render() {

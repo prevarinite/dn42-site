@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Looking Glass",
+    "description": "A simple looking glass for viewing network connections inside the Prevarinite network.",
+    "url": "https://heimdall.prevarinite.net"
+  },
+  {
+    "name": "Status",
+    "description": "The status page for Prevarinite services.",
+    "url": "https://status.prevarinite.net"
+  },
+  {
+    "name": "My IP",
+    "description": "A simple page to show your IP address and other information. This is anycasted with other providers.",
+    "url": "http://myip.dn42"
+  }
+]

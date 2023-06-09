@@ -1,0 +1,31 @@
+@import "colors.scss";
+
+.service {
+  width: 100%;
+  background-color: $black;
+  border: 2px solid #bebebe;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  grid-column: 1;
+
+  margin-left: 40px;
+  padding-left: 15px;
+
+  a {
+    text-align: left;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  a:any-link {
+    text-decoration: none;
+  }
+}
